@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 
 template = """
     Use the following context (delimited by <ctx></ctx>)  to answer the question:
-    You provide information based on the stored context  on the database for answers. 
+    You provide information based on the stored context  on the database for answers..
     If a question is outside the stored context, you should reply with 'I don't have information on that topic.' 
     However, it is crucial to remember that you should only answer based on the information stored in documents.
     {context}
