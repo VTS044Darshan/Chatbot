@@ -1,5 +1,4 @@
-
-
+from openai import OpenAI
 from flask import Flask, request, jsonify
 from vectorstore import get_text_chunks, get_vectorstore
 from model import get_conversation_chain
